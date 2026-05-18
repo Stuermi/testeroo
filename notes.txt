@@ -1,0 +1,12 @@
+Git Initialisieren:
+    git init 
+
+Status abfragen:
+    git status 
+
+Dateien in Staging hinzufügen:
+    git add "Dateiname"
+
+Dateien in Git hochladen:
+    git commit -m "Nachricht zum Änderungsstatus"
+
