@@ -15,3 +15,8 @@ Git mit VS Code nutzen:
     + um Datei in Staging hinzuzufügen
     mit blauen Button commiten
     Nachricht zum Änderungsstatus hinzufügen
+
+Code zu Github schieben:
+    git remote add origin "Link zur Github Repository" 
+    git push -u origin master
+
