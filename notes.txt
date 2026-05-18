@@ -10,3 +10,8 @@ Dateien in Staging hinzufügen:
 Dateien in Git hochladen:
     git commit -m "Nachricht zum Änderungsstatus"
 
+Git mit VS Code nutzen:
+    über Source Control
+    + um Datei in Staging hinzuzufügen
+    mit blauen Button commiten
+    Nachricht zum Änderungsstatus hinzufügen
