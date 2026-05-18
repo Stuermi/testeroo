@@ -27,3 +27,8 @@ Git reset Befehle:
         Nimmt den letzten commit zurück Änderung bleibt nur in der Working directory
     git reset --hard HEAD~1
         Löscht den letzten commit und löscht die letzte Änderung komplett
+
+Git revert Befehle:
+    git revert commitID
+        revert nimmt die letzte Änderung, die bereits bei Github liegt zurück
+        CommitID kann mit Rechtsklick auf den zurückzunehmenden Commit kopiert werden
