@@ -20,3 +20,6 @@ Code zu Github schieben:
     git remote add origin "Link zur Github Repository" 
     git push -u origin master
 
+Git reset Befehle:
+    git reset --soft HEAD~1
+        Nimmt den letzten commit zurück und schiebt es zurück zu stanged changes
