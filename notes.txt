@@ -37,3 +37,11 @@ Repository von Github clonen:
     git clone "URL" .
     klont das gesamte Repository
     der . sorgt dafür, dass die Dateien des repository in den aktuellen Ordner geklont werden 
+
+ssh key erstellen:
+    unter Github Bash folgendes eingeben
+    ssh-keygen -t ed25519 -C "Github-Priv-Stuermer" -f ~/.ssh/github_priv
+    -C fügt einen Kommentar zum Key dazu um ihn als Admin zuordnen zu können
+    -f gibt den Namen des ssh-keys an, wie er auf dem PC gespeichert wird
+    Der Key wird unter C://Benutzer/stuer/.ssh gespeichert
+    .pub ist die ssh Datei, die man weitergeben kann
