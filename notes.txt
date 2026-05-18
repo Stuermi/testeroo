@@ -32,3 +32,8 @@ Git revert Befehle:
     git revert commitID
         revert nimmt die letzte Änderung, die bereits bei Github liegt zurück
         CommitID kann mit Rechtsklick auf den zurückzunehmenden Commit kopiert werden
+
+Repository von Github clonen:
+    git clone "URL" .
+    klont das gesamte Repository
+    der . sorgt dafür, dass die Dateien des repository in den aktuellen Ordner geklont werden 
