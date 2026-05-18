@@ -22,4 +22,8 @@ Code zu Github schieben:
 
 Git reset Befehle:
     git reset --soft HEAD~1
-        Nimmt den letzten commit zurück und schiebt es zurück zu stanged changes
+        Nimmt den letzten commit zurück Änderung bleibt aber im staged repository sowie working directory
+    git reset --mixed HEAD~1
+        Nimmt den letzten commit zurück Änderung bleibt nur in der Working directory
+    git reset --hard HEAD~1
+        Löscht den letzten commit und löscht die letzte Änderung komplett
